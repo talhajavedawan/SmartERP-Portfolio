@@ -6,7 +6,8 @@
 [![WPF](https://img.shields.io/badge/UI-WPF-0C54C2)](https://learn.microsoft.com/dotnet/desktop/wpf/)
 [![Entity Framework](https://img.shields.io/badge/Data-Entity%20Framework-512BD4)](https://learn.microsoft.com/ef/)
 [![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-CC2927?logo=microsoftsqlserver)](https://www.microsoft.com/sql-server)
-[![Portfolio](https://img.shields.io/badge/Status-Sanitized%20Case%20Study-1F6FEB)](#portfolio-scope)\n[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/talhajavedawan/SmartERP-Portfolio?quickstart=1)
+[![Portfolio](https://img.shields.io/badge/Status-Sanitized%20Case%20Study-1F6FEB)](#portfolio-scope)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/talhajavedawan/SmartERP-Portfolio?quickstart=1)
 
 ## Executive summary
 
