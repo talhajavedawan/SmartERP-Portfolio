@@ -39,35 +39,87 @@ This repository is a recruiter-friendly case study. It demonstrates the engineer
 
 ## Product walkthrough
 
-The following screenshots use demonstration records and illustrate selected workflows from the desktop application.
+The following gallery presents representative screens from the mature SmartERP desktop application. The screenshots use demonstration records and are organised by business capability so recruiters can quickly assess the product's breadth and the engineering involved.
 
-For broader coverage of finance, banking, inventory, administration, and collaboration features, see the [complete ERP module gallery](docs/MODULE-GALLERY.md).
+> The production source code and confidential business data are not published. HR screens containing personal-data fields are intentionally omitted.
 
-### Role-based access control
+### Platform overview
 
-![Users, roles and hierarchical permissions](docs/images/role-permissions.jpeg)
+#### Unified module navigation
 
-Users can be mapped to companies, departments, and roles, with granular permissions organised as a hierarchical tree.
+![SmartERP main navigation across business modules](docs/images/MainDashboard.PNG)
 
-### Sales workflow centre
+The ribbon-based shell provides a consistent entry point for accountancy, company, customer, vendor, HR, banking, loans, inventory, and document workflows.
 
-![Sales orders and workflow navigation](docs/images/sales-workflow-centre.jpeg)
+### Finance and accounting
 
-Operational teams can filter transactions by stage, department, date, and approval status from a single workflow centre.
+#### Chart of accounts and account management
 
-### End-to-end order tracking
+![Chart of accounts and account type management](docs/images/AccountsManagement.PNG)
 
-![Order tracking from inquiry through approval](docs/images/order-tracking.jpeg)
+The accounts register supports multiple account types, currencies, balances, reconciliation dates, approval states, and company or department filtering.
 
-The tracking view connects an inquiry, offer, and sales order so users can understand the current stage and transaction history.
+#### Currency and exchange-rate management
 
-### Comments and collaboration
+![Sales exchange-rate register](docs/images/CurrencyConverter.PNG)
 
-| Create a comment | Review the activity feed |
-|---|---|
-| ![Create and tag a comment](docs/images/comment-entry.jpeg) | ![Transaction comment history](docs/images/comment-history.jpeg) |
+Exchange-rate registers capture base and transaction currencies, effective periods, audit information, and void status for controlled multi-currency processing.
 
-Users can assign, tag, categorise, and review comments without leaving the underlying transaction.
+#### Internal and inter-company bank transfers
+
+![Internal multi-currency bank transfer workflow](docs/images/InternalBankTransfers.PNG)
+
+The transfer workflow coordinates debit and credit postings, companies, departments, bank accounts, exchange rates, VAT, charges, petty cash, and general-ledger posting dates.
+
+#### Accounting cost sheet
+
+![Cost sheet with vendor costs and margin analysis](docs/images/CurrentAccountingCostSheet.PNG)
+
+Cost sheets consolidate vendor charges and compare budgeted, adjusted, and system costs and margins to support commercial decisions.
+
+### Sales and customer operations
+
+#### Customer centre
+
+![Customer Centre transaction register](docs/images/CustomerCenter.PNG)
+
+The Customer Centre brings sales and procurement registers into a searchable workspace with date, department, lifecycle, approval, and status filters.
+
+#### End-to-end transaction tracking
+
+![Hierarchical transaction order tracking](docs/images/OrdersTrackingOnEveryModule.PNG)
+
+The transaction tree traces the full commercial lifecycle—from inquiry and offer to sales order, invoices, receipts, purchase orders, bills, and payments—with status and approval visibility.
+
+### Inventory and reporting
+
+#### Inventory valuation detail
+
+![Inventory valuation detail report](docs/images/InventoryReports.PNG)
+
+The detail report exposes item, company, department, on-hand quantity, average cost, and values in operating and reporting currencies.
+
+#### Inventory valuation summary
+
+![Inventory valuation summary report](docs/images/InventorySummaries.PNG)
+
+The summary view provides a consolidated inventory valuation with drill-down access to detailed records and print-ready reporting.
+
+### Administration and security
+
+#### Role-based access control
+
+![Users, roles, companies, departments and hierarchical permissions](docs/images/Role%20and%20Access%20Based%20Control.PNG)
+
+Administrators map users to companies, departments, and roles, then assign fine-grained permissions through a hierarchical capability tree.
+
+### Collaboration and operational awareness
+
+#### Transaction notifications
+
+![Transaction notification inbox](docs/images/UserNotificationsOnTransactions.PNG)
+
+The in-application inbox groups workflow notifications, tags, comments, status changes, and module references, helping users act without losing transaction context.
 
 ## Architecture
 
@@ -112,7 +164,6 @@ These examples communicate my current engineering style; they are not copied fro
 
 ## Documentation
 
-- [Complete ERP module gallery](docs/MODULE-GALLERY.md)
 - [Detailed case study](docs/CASE-STUDY.md)
 - [Architecture and modernisation path](docs/ARCHITECTURE.md)
 - [Selected engineering challenges](docs/ENGINEERING-CHALLENGES.md)
