@@ -1,0 +1,17 @@
+{
+  "name": "SmartERP Portfolio (.NET 8)",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.csharp"
+      ],
+      "settings": {
+        "dotnet.defaultSolution": "SmartERP.Portfolio.sln"
+      }
+    }
+  },
+  "postCreateCommand": "dotnet restore SmartERP.Portfolio.sln && dotnet build SmartERP.Portfolio.sln --configuration Release --no-restore && dotnet test SmartERP.Portfolio.sln --configuration Release --no-build",
+  "remoteUser": "vscode"
+}
