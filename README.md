@@ -183,6 +183,6 @@ This is a **sanitized case study**, not the production repository. Company names
 
 ## About me
 
-I am a London-based software engineer and technical product professional with more than six years of commercial experience, specialising in **C#, .NET, WPF, SQL Server, enterprise applications, production support, and system modernisation**. I am currently completing an MSc in Software Engineering and am open to UK opportunities in .NET development, application development, and technical product engineering.
+I am a London-based software engineer and technical product professional with more than six years of commercial experience, specialising in **C#, .NET, WPF, SQL Server, enterprise applications, production support, and system modernisation**. I have completed an MSc in Software Engineering and am open to UK opportunities in .NET development, application development, and technical product engineering.
 
 [LinkedIn](https://www.linkedin.com/in/talha-javed-013319173/) · [GitHub](https://github.com/talhajavedawan)
