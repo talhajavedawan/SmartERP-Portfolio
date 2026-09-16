@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore
+        run: dotnet restore SmartERP.Portfolio.sln
+      - name: Build
+        run: dotnet build SmartERP.Portfolio.sln --configuration Release --no-restore
+      - name: Test
+        run: dotnet test SmartERP.Portfolio.sln --configuration Release --no-build
