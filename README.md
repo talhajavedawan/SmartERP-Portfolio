@@ -41,6 +41,8 @@ This repository is a recruiter-friendly case study. It demonstrates the engineer
 
 The following screenshots use demonstration records and illustrate selected workflows from the desktop application.
 
+For broader coverage of finance, banking, inventory, administration, and collaboration features, see the [complete ERP module gallery](docs/MODULE-GALLERY.md).
+
 ### Role-based access control
 
 ![Users, roles and hierarchical permissions](docs/images/role-permissions.jpeg)
@@ -110,6 +112,7 @@ These examples communicate my current engineering style; they are not copied fro
 
 ## Documentation
 
+- [Complete ERP module gallery](docs/MODULE-GALLERY.md)
 - [Detailed case study](docs/CASE-STUDY.md)
 - [Architecture and modernisation path](docs/ARCHITECTURE.md)
 - [Selected engineering challenges](docs/ENGINEERING-CHALLENGES.md)
