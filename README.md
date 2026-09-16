@@ -37,6 +37,36 @@ This repository is a recruiter-friendly case study. It demonstrates the engineer
 | Collaboration | Notifications, comments, tagging, email integration and document attachments |
 | Administration | Users, roles, permissions, employees, departments and company mapping |
 
+## Product walkthrough
+
+The following screenshots use demonstration records and illustrate selected workflows from the desktop application.
+
+### Role-based access control
+
+![Users, roles and hierarchical permissions](docs/images/role-permissions.jpeg)
+
+Users can be mapped to companies, departments, and roles, with granular permissions organised as a hierarchical tree.
+
+### Sales workflow centre
+
+![Sales orders and workflow navigation](docs/images/sales-workflow-centre.jpeg)
+
+Operational teams can filter transactions by stage, department, date, and approval status from a single workflow centre.
+
+### End-to-end order tracking
+
+![Order tracking from inquiry through approval](docs/images/order-tracking.jpeg)
+
+The tracking view connects an inquiry, offer, and sales order so users can understand the current stage and transaction history.
+
+### Comments and collaboration
+
+| Create a comment | Review the activity feed |
+|---|---|
+| ![Create and tag a comment](docs/images/comment-entry.jpeg) | ![Transaction comment history](docs/images/comment-history.jpeg) |
+
+Users can assign, tag, categorise, and review comments without leaving the underlying transaction.
+
 ## Architecture
 
 ```mermaid
