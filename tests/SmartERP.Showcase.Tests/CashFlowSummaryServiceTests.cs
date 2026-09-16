@@ -1,4 +1,5 @@
 using SmartERP.Showcase;
+using Xunit;
 
 namespace SmartERP.Showcase.Tests;
 
