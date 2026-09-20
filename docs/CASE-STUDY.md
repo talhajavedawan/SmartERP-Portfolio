@@ -32,11 +32,15 @@ The value of this project is not a single algorithm. It is the accumulated engin
 
 ### Unified workflows
 
-Finance, procurement, sales, stock, documents, approvals, and administration were brought into a shared system with consistent users, permissions, and audit-oriented processes.
+Bookkeeping, procurement, inventory, general ledger, chart of accounts, cost accounting, current accounts, budgeting, profit and loss, reconciliation, treasury, lending, HRM, CRM, vendor, asset, document, approval, and administration workflows were brought into one shared system with consistent users, permissions, and audit-oriented processes.
 
 ### Reduced operational friction
 
-Purpose-built screens and workflow rules replaced disconnected manual steps and reduced repeated entry across departments.
+Purpose-built screens and workflow rules reduced repeated entry across departments. Finance teams could manage debit and credit postings, administrative expenses, petty cash, multi-currency transactions, interbank and intercompany transfers, and account reconciliation within connected workflows.
+
+### Connected lending and operations
+
+Short-term loans, company loans, employee loans, contract workflows, procurement, vendor management, inventory, asset management, HRM, and CRM were connected to company and department structures. Internal order-based chat kept operational discussion linked to the relevant transaction.
 
 ### Improved supportability
 
@@ -44,7 +48,7 @@ Production investigation led to improvements in EF state handling, query design,
 
 ### Modernisation roadmap
 
-I helped define a gradual move toward ASP.NET Core APIs, Angular, EF Core, JWT-based security, tenant isolation, and automated delivery. The approach protected operational continuity rather than attempting a risky all-at-once rewrite.
+I helped define a gradual move toward ASP.NET Core REST APIs, Angular, EF Core, JWT-based security, tenant isolation, microservice-oriented boundaries, and automated delivery. The approach protected operational continuity rather than attempting a risky all-at-once rewrite.
 
 ## How I work
 
@@ -59,7 +63,7 @@ I helped define a gradual move toward ASP.NET Core APIs, Angular, EF Core, JWT-b
 
 - Ownership of a mature enterprise product.
 - Strong debugging and production-support skills.
-- Practical knowledge of desktop .NET and relational data systems.
+- Practical knowledge of desktop .NET, relational data systems, REST APIs, microservices, and complex financial operations.
 - Ability to balance legacy constraints with modern engineering direction.
 - Communication with both technical and non-technical stakeholders.
 - Team leadership and mentoring alongside individual delivery.
