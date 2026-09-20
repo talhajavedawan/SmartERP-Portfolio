@@ -1,6 +1,6 @@
 # SmartERP — Enterprise ERP Engineering Case Study
 
-> A sanitized engineering portfolio describing seven years of hands-on work designing, developing, supporting, and modernising a multi-company ERP platform.
+> A sanitized engineering portfolio describing 6+ years of hands-on work designing, developing, supporting, and modernising a multi-company ERP platform.
 
 [![C#](https://img.shields.io/badge/C%23-.NET-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![WPF](https://img.shields.io/badge/UI-WPF-0C54C2)](https://learn.microsoft.com/dotnet/desktop/wpf/)
@@ -11,13 +11,13 @@
 
 ## Executive summary
 
-SmartERP is a bespoke enterprise resource planning platform that supported approximately **200–250 users** across **multiple companies and international operations**. I worked across its lifecycle: requirements analysis, product design, C# development, database modelling, production support, performance improvement, mentoring, and modernisation planning.
+SmartERP is a bespoke enterprise resource planning platform that supported approximately **200–250 users** across **multiple companies and international operations**. Its connected modules cover bookkeeping, procurement, inventory, general-ledger and chart-of-accounts management, cost and current accounting, budgeting, profit and loss, reconciliation, treasury, loans, HRM, CRM, vendor and asset management. I worked across its lifecycle: requirements analysis, product design, C# development, database modelling, production support, performance improvement, mentoring, and modernisation planning.
 
 This repository is a recruiter-friendly case study. It demonstrates the engineering decisions, system scope, representative challenges, and selected clean-room code examples without publishing confidential business data or the proprietary production source.
 
 ## What I delivered
 
-- Developed and maintained finance, procurement, sales, inventory, HR, document, notification, and reporting workflows.
+- Developed and maintained connected bookkeeping, procurement, inventory, ledger, chart-of-accounts, cost-accounting, budgeting, profit-and-loss, reconciliation, petty-cash, loan, HRM, CRM, vendor, asset, document, notification, and reporting workflows.
 - Built desktop features with **C#, .NET Framework, WPF/XAML, DevExpress, EF6, and SQL Server**.
 - Supported a multi-company deployment used by roughly **200–250 users**.
 - Diagnosed complex production problems involving Entity Framework tracking, memory pressure, long-running UI sessions, self-referencing trees, and Microsoft Office interop.
@@ -25,18 +25,20 @@ This repository is a recruiter-friendly case study. It demonstrates the engineer
 - Implemented Outlook integration for inboxes, sent items, folders, attachments, HTML previews, and unread state at a scale of thousands of messages.
 - Delivered dashboards including cash-flow summaries and operational notifications.
 - Mentored junior developers and led a small graduate team during the web-modernisation programme.
-- Planned the transition toward **ASP.NET Core Web API, Angular, EF Core, JWT authentication, and tenant-aware architecture**.
+- Planned the transition toward **ASP.NET Core Web API, REST APIs, Angular, EF Core, JWT authentication, microservices, and tenant-aware architecture**.
 
 ## System at a glance
 
 | Area | Capabilities |
 |---|---|
-| Finance | Chart of accounts, journal vouchers, VAT records, trial balance, cash-flow reporting, loans and advances |
-| Procurement | Purchase orders, invoices, bills, approvals, vendor workflows and costing |
-| Sales | Sales orders, invoices, receipts, customer workflows and reporting |
-| Inventory | Item records, stock movements and inventory reporting |
-| Collaboration | Notifications, comments, tagging, email integration and document attachments |
-| Administration | Users, roles, permissions, employees, departments and company mapping |
+| Bookkeeping and ledger | General ledger, chart of accounts, debit/credit postings, journal vouchers, current accounts, VAT, trial balance, profit and loss |
+| Treasury and reconciliation | Account reconciliation, petty cash, multi-currency transactions, interbank and intercompany transfers |
+| Loans and finance | Short-term loans, company loans, employee loans, advances, cash-flow reporting and budget calculations |
+| Procurement and costing | Purchase orders, invoices, bills, approvals, vendor management, contract workflows, administrative expenses and cost accounting |
+| Sales and CRM | Sales orders, invoices, receipts, customer workflows, CRM integration and reporting |
+| Inventory and assets | Item records, stock movements, inventory valuation, asset management and operational reporting |
+| People and organisation | HRM integration, employees, companies, departments and organisational mapping |
+| Collaboration and platform | Internal order-based chat, notifications, documents, RBAC, REST APIs and microservice-oriented modernisation |
 
 ## Product walkthrough
 
