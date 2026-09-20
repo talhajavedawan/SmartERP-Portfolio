@@ -8,13 +8,11 @@ SmartERP grew into a broad desktop platform used by approximately 200–250 peop
 
 ## My responsibilities
 
-- Translate stakeholder needs into workable product and technical changes.
-- Design entities, relationships, repositories, screens, validations, and approval flows.
-- Implement and maintain C#/WPF features backed by EF6 and SQL Server.
-- Investigate production incidents and improve performance and stability.
-- Coordinate releases and support users across multiple companies.
-- Review work, mentor junior developers, and divide migration work across a graduate team.
-- Define the direction for the newer API and web-client architecture.
+- Turn stakeholder needs into practical product and technical changes.
+- Build and maintain C#/WPF features backed by EF6 and SQL Server.
+- Resolve production, performance and data issues.
+- Support releases and users across several companies.
+- Mentor developers and help lead the move toward a web-based architecture.
 
 ## Scale and complexity
 
@@ -30,25 +28,10 @@ The value of this project is not a single algorithm. It is the accumulated engin
 
 ## Selected outcomes
 
-### Unified workflows
-
-Bookkeeping, procurement, inventory, general ledger, chart of accounts, cost accounting, current accounts, budgeting, profit and loss, reconciliation, treasury, lending, HRM, CRM, vendor, asset, document, approval, and administration workflows were brought into one shared system with consistent users, permissions, and audit-oriented processes.
-
-### Reduced operational friction
-
-Purpose-built screens and workflow rules reduced repeated entry across departments. Finance teams could manage debit and credit postings, administrative expenses, petty cash, multi-currency transactions, interbank and intercompany transfers, and account reconciliation within connected workflows.
-
-### Connected lending and operations
-
-Short-term loans, company loans, employee loans, contract workflows, procurement, vendor management, inventory, asset management, HRM, and CRM were connected to company and department structures. Internal order-based chat kept operational discussion linked to the relevant transaction.
-
-### Improved supportability
-
-Production investigation led to improvements in EF state handling, query design, object lifetimes, Outlook interop cleanup, and complex DevExpress tree/grid behaviour.
-
-### Modernisation roadmap
-
-I helped define a gradual move toward ASP.NET Core REST APIs, Angular, EF Core, JWT-based security, tenant isolation, microservice-oriented boundaries, and automated delivery. The approach protected operational continuity rather than attempting a risky all-at-once rewrite.
+- Unified finance, procurement, inventory, lending, CRM and HR workflows in one permission-controlled platform.
+- Reduced duplicate work by connecting transactions across companies and departments.
+- Improved reliability through better EF state handling, query design, memory management and Outlook interop cleanup.
+- Defined a staged move toward ASP.NET Core REST APIs, Angular, EF Core, JWT and microservice-oriented boundaries without disrupting live operations.
 
 ## How I work
 
