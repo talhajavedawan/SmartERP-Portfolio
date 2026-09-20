@@ -1,19 +1,19 @@
 # SmartERP — Enterprise ERP Engineering Case Study
 
-> A sanitized engineering portfolio describing 6+ years of hands-on work designing, developing, supporting, and modernising a multi-company ERP platform.
+> An engineering portfolio covering 6+ years of hands-on work designing, developing, supporting, and modernising a custom multi-company ERP platform.
 
 [![C#](https://img.shields.io/badge/C%23-.NET-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![WPF](https://img.shields.io/badge/UI-WPF-0C54C2)](https://learn.microsoft.com/dotnet/desktop/wpf/)
 [![Entity Framework](https://img.shields.io/badge/Data-Entity%20Framework-512BD4)](https://learn.microsoft.com/ef/)
 [![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-CC2927?logo=microsoftsqlserver)](https://www.microsoft.com/sql-server)
-[![Portfolio](https://img.shields.io/badge/Status-Sanitized%20Case%20Study-1F6FEB)](#portfolio-scope)
+[![Portfolio](https://img.shields.io/badge/Status-Custom%20ERP%20Case%20Study-1F6FEB)](#portfolio-scope)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/talhajavedawan/SmartERP-Portfolio?quickstart=1)
 
 ## Executive summary
 
 SmartERP is a bespoke enterprise resource planning platform that supported approximately **200–250 users** across **multiple companies and international operations**. Its connected modules cover bookkeeping, procurement, inventory, general-ledger and chart-of-accounts management, cost and current accounting, budgeting, profit and loss, reconciliation, treasury, loans, HRM, CRM, vendor and asset management. I worked across its lifecycle: requirements analysis, product design, C# development, database modelling, production support, performance improvement, mentoring, and modernisation planning.
 
-This repository is a recruiter-friendly case study. It demonstrates the engineering decisions, system scope, representative challenges, and selected clean-room code examples without publishing confidential business data or the proprietary production source.
+This repository is a recruiter-friendly engineering portfolio for the custom ERP. It demonstrates the engineering decisions, system scope, representative challenges, and selected portfolio code examples while the commercial production source and confidential business data remain private.
 
 ## What I delivered
 
@@ -182,7 +182,7 @@ The showcase targets .NET 8 and has no external infrastructure dependencies.
 
 ## Portfolio scope
 
-This is a **sanitized case study**, not the production repository. Company names, credentials, customer information, databases, commercial rules, screenshots containing business data, and proprietary implementation details are intentionally excluded. Metrics are approximate and presented only to communicate engineering scale.
+This portfolio documents a **custom commercial ERP**. The production implementation remains private, so credentials, customer information, databases, confidential business rules, and proprietary source code are not published. Metrics are approximate and presented only to communicate engineering scale.
 
 ## About me
 
