@@ -1,6 +1,6 @@
 # SmartERP — Enterprise ERP Engineering Case Study
 
-> An engineering portfolio covering 6+ years of hands-on work designing, developing, supporting, and modernising a custom multi-company ERP platform.
+> 6+ years building and supporting a custom multi-company ERP used by **200–250 people across 7–9 businesses**.
 
 [![C#](https://img.shields.io/badge/C%23-.NET-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![WPF](https://img.shields.io/badge/UI-WPF-0C54C2)](https://learn.microsoft.com/dotnet/desktop/wpf/)
@@ -11,7 +11,15 @@
 
 ## Executive summary
 
-SmartERP is a custom multi-company ERP used by approximately **200–250 people across 7–9 businesses**. Over 6+ years, I helped build, support and modernise the platform across finance, procurement, inventory, CRM, HR and operational workflows.
+SmartERP connects finance, procurement, inventory, CRM and HR workflows in one business-critical platform. I worked across feature delivery, production support, stakeholder requirements and web modernisation.
+
+| Evidence | Scale |
+|---|---:|
+| Commercial engineering | 6+ years |
+| ERP users | 200–250 |
+| Companies supported | 7–9 |
+| Desktop screens secured | 100+ |
+| Email items integrated | 5,000+ |
 
 ## What I delivered
 
