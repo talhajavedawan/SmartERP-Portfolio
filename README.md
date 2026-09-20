@@ -11,38 +11,30 @@
 
 ## Executive summary
 
-SmartERP is a bespoke enterprise resource planning platform that supported approximately **200–250 users** across **multiple companies and international operations**. Its connected modules cover bookkeeping, procurement, inventory, general-ledger and chart-of-accounts management, cost and current accounting, budgeting, profit and loss, reconciliation, treasury, loans, HRM, CRM, vendor and asset management. I worked across its lifecycle: requirements analysis, product design, C# development, database modelling, production support, performance improvement, mentoring, and modernisation planning.
-
-This repository is a recruiter-friendly engineering portfolio for the custom ERP. It demonstrates the engineering decisions, system scope, representative challenges, and selected portfolio code examples while the commercial production source and confidential business data remain private.
+SmartERP is a custom multi-company ERP used by approximately **200–250 people across 7–9 businesses**. Over 6+ years, I helped build, support and modernise the platform across finance, procurement, inventory, CRM, HR and operational workflows.
 
 ## What I delivered
 
-- Developed and maintained connected bookkeeping, procurement, inventory, ledger, chart-of-accounts, cost-accounting, budgeting, profit-and-loss, reconciliation, petty-cash, loan, HRM, CRM, vendor, asset, document, notification, and reporting workflows.
-- Built desktop features with **C#, .NET Framework, WPF/XAML, DevExpress, EF6, and SQL Server**.
-- Supported a multi-company deployment used by roughly **200–250 users**.
-- Diagnosed complex production problems involving Entity Framework tracking, memory pressure, long-running UI sessions, self-referencing trees, and Microsoft Office interop.
-- Designed a **15-minute idle-session logout** mechanism across more than 100 application windows.
-- Implemented Outlook integration for inboxes, sent items, folders, attachments, HTML previews, and unread state at a scale of thousands of messages.
-- Delivered dashboards including cash-flow summaries and operational notifications.
-- Mentored junior developers and led a small graduate team during the web-modernisation programme.
-- Planned the transition toward **ASP.NET Core Web API, REST APIs, Angular, EF Core, JWT authentication, microservices, and tenant-aware architecture**.
+- Built and supported business-critical modules using **C#, .NET Framework, WPF, EF6, SQL Server and DevExpress**.
+- Solved complex production issues involving data integrity, performance, memory use and Outlook integration.
+- Introduced a **15-minute idle logout across 100+ windows** and supported email integration handling **5,000+ items**.
+- Worked with stakeholders from requirements through release and user support.
+- Mentored junior developers and led five graduates during the web-modernisation programme.
+- Helped shape the move toward **ASP.NET Core, Angular, EF Core, REST APIs, JWT and microservices**.
 
 ## System at a glance
 
-| Area | Capabilities |
+| Area | Selected capabilities |
 |---|---|
-| Bookkeeping and ledger | General ledger, chart of accounts, debit/credit postings, journal vouchers, current accounts, VAT, trial balance, profit and loss |
-| Treasury and reconciliation | Account reconciliation, petty cash, multi-currency transactions, interbank and intercompany transfers |
-| Loans and finance | Short-term loans, company loans, employee loans, advances, cash-flow reporting and budget calculations |
-| Procurement and costing | Purchase orders, invoices, bills, approvals, vendor management, contract workflows, administrative expenses and cost accounting |
-| Sales and CRM | Sales orders, invoices, receipts, customer workflows, CRM integration and reporting |
-| Inventory and assets | Item records, stock movements, inventory valuation, asset management and operational reporting |
-| People and organisation | HRM integration, employees, companies, departments and organisational mapping |
-| Collaboration and platform | Internal order-based chat, notifications, documents, RBAC, REST APIs and microservice-oriented modernisation |
+| Finance | Bookkeeping, general ledger, chart of accounts, cost accounting, budgets, P&L and reconciliation |
+| Treasury | Petty cash, multi-currency, interbank/intercompany transfers and loans |
+| Operations | Procurement, contracts, vendors, inventory and asset management |
+| Business management | Sales, CRM, HRM, companies, departments and reporting |
+| Platform | RBAC, order-based collaboration, notifications, REST APIs and microservice modernisation |
 
 ## Product walkthrough
 
-The following gallery presents representative screens from the mature SmartERP desktop application. The screenshots use demonstration records and are organised by business capability so recruiters can quickly assess the product's breadth and the engineering involved.
+Selected screens show the product, workflows and engineering scope at a glance.
 
 > The production source code and confidential business data are not published. HR screens containing personal-data fields are intentionally omitted.
 
@@ -157,7 +149,7 @@ My contribution extended beyond coding: stakeholder discussions, prioritisation,
 
 ## Representative code
 
-The [`src`](src/) directory contains small clean-room examples written specifically for this portfolio:
+The [`src`](src/) directory contains self-contained examples created for this portfolio:
 
 - A deterministic multi-stage approval workflow.
 - A cash-flow summary service with explicit domain types.
@@ -186,6 +178,6 @@ This portfolio documents a **custom commercial ERP**. The production implementat
 
 ## About me
 
-I am a London-based software engineer and technical product professional with more than six years of commercial experience, specialising in **C#, .NET, WPF, SQL Server, enterprise applications, production support, and system modernisation**. I have completed an MSc in Software Engineering and am open to UK opportunities in .NET development, application development, and technical product engineering.
+I am a London-based software engineer with 6+ years of experience in **C#, .NET, WPF, SQL Server, enterprise applications and production support**. I have completed an MSc in Software Engineering and am open to UK .NET and enterprise software roles.
 
 [LinkedIn](https://www.linkedin.com/in/talha-javed-013319173/) · [GitHub](https://github.com/talhajavedawan)
