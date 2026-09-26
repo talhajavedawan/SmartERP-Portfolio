@@ -1,4 +1,8 @@
-# SmartERP — Enterprise ERP Engineering Case Study
+# Talha Javed Portfolio
+
+Software engineering, application support and project delivery work. SmartERP is the featured enterprise case study below.
+
+## SmartERP — Enterprise ERP Engineering Case Study
 
 > 6+ years building and supporting a custom multi-company ERP used by **200–250 people across 7–9 businesses**.
 
