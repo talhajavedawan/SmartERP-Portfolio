@@ -30,6 +30,13 @@ SmartERP connects finance, procurement, inventory, CRM and HR workflows in one b
 - Mentored junior developers and led five graduates during the web-modernisation programme.
 - Helped shape the move toward **ASP.NET Core, Angular, EF Core, REST APIs, JWT and microservices**.
 
+## Project delivery and quality
+
+- Coordinated five graduate developers on ERP web modernisation, breaking requirements into tasks, tracking progress and supporting delivery through Scrum-style iterations and Trello.
+- Worked with stakeholders to clarify requirements, prioritise changes and keep the team aligned with business workflows.
+- Used Git for source control and collaboration, with API testing, functional QA and issue investigation before release.
+- Supported production releases, user feedback and follow-up fixes across finance and operations modules.
+
 ## System at a glance
 
 | Area | Selected capabilities |
